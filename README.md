@@ -12,7 +12,7 @@
 ## Rule
 
 * Use a formatter in `/.idea/codeStyleSttings.xml`
-* Start a new line at right vertica line on android studio. (about 130 characters)   
+* Wrap lines at the right vertical line on android studio. (The maximum number of characters per line is about 130 characters)
 
 ### Coding rules
 
@@ -73,9 +73,9 @@ hoge as? Hoge ?: throw IllegalArgumentException("not Hoge!")
 hoge.foo()
 ```
 
-### Line break
+### Line wrapping
 
-* Start a new line at right vertical line on Android studio. (About 130 characters)
+* Wrap lines at the right vertical line on android studio. (The maximum number of characters per line is about characters)
 
 ![RightVerticalLine][AndroidStudio]
 
