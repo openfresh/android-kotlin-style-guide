@@ -171,7 +171,7 @@ val pair = foo to bar
 val char = 'K'
 
 // bad
-if (char >= 'A' && 'c' <= 'Z') print("Hit!")
+if (char >= 'A' && char <= 'Z') print("Hit!")
 
 // good
 if (char in 'A'..'Z') print("Hit!")
